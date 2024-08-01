@@ -4,15 +4,15 @@ public class ResultadoEscolar {
         
         int nota = 6;
        
-        if(nota >= 7){
-            System.out.println("Aprovado");
-        }
+        String resultado = nota >= 7 ? "Aprovado" : "Repovado";
+        /* 
+        * Declarando a variável resultado e atribuindo o seu valor de acordo com 
+        * a condição da expressão ternária. Se a nota for maior ou igual a 7, a 
+        * variável receberá o valor de "Aprovado" caso contrário, o valor da variável
+        * resultado será "Reprovado".
+        */
 
-        else if(nota >= 5 && nota < 7){
-            System.out.println("Prova de recuperação");
-        }
- 
-        else
-            System.out.println("Reprovado");
+        System.out.println(resultado); // Impressão do valor da variável resultado.
+
     }
 }
