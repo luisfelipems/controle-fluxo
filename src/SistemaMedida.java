@@ -2,20 +2,25 @@ public class SistemaMedida {
     
     public static void main(String[] args) {
         
-        // Criando um sistema com IF e ELSE onde será impresso o tamanho conforme o valor da variável sigla.
+        // Criando um sistema com SWITCH e CASE onde será impresso o tamanho conforme o valor da variável sigla.
 
-        String sigla = "A";
+        String sigla = "M";
 
-		if(sigla == "P")
+		switch (sigla) {
+		case "P":{
 			System.out.println("PEQUENO");
-
-		else if(sigla == "M")
+			break;
+		}
+		case "M":{
 			System.out.println("MÉDIO");
-
-		else if(sigla == "G")
+			break;
+		}
+		case "G":{
 			System.out.println("GRANDE");
-
-		else
+			break;
+		}
+		default:
 			System.out.println("INDEFINIDO");
+		}
     }
 }
