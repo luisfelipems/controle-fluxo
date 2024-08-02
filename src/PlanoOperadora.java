@@ -14,5 +14,6 @@ public class PlanoOperadora {
 			case "B": {
 				System.out.println("100 minutos de ligação");
 			}
+		}
     }
 }
