@@ -14,8 +14,6 @@ public class ExemploExcecao {
         } catch (ParseException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-        }
-        
-        
+        }  
     }
 }
